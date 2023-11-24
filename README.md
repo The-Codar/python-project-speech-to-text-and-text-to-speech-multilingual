@@ -177,9 +177,9 @@ Introducing my first python prototype project. In this project we can convert ou
 
 ### ➜ **Dependencies**
 
-* #### Required Commands to install python dependencies for this poject use terminals like windows cmd, windows powershell, mac terminal, linux terminal etc...:
+* #### Required Commands to install python dependencies for this poject use terminals like windows cmd, `windows powershell`, `mac terminal`, `linux terminal` etc...:
 
-    a) Installing googletrans module: <br />
+    a) Installing `googletrans` module: <br />
         - googletrans module src link: https://pypi.org/project/googletrans/3.1.0a0/ <br />
         - Short Description: Googletrans is a free and unlimited python library that implemented Google Translate API. This uses the Google Translate Ajax API to make calls to such methods as detect and translate. <br />
         - Author: SuHun Han <br />
@@ -189,7 +189,7 @@ Introducing my first python prototype project. In this project we can convert ou
     pip install googletrans==3.1.0a0
     ```
 
-    b) Installing SpeechRecognition module: <br />
+    b) Installing `SpeechRecognition` module: <br />
         - SpeechRecognition module src link: https://pypi.org/project/SpeechRecognition/ <br />
         - Short Description: Library for performing speech recognition, with support for several engines and APIs, online and offline. <br />
         - Author: Anthony Zhang (Uberi) <br />
@@ -199,7 +199,7 @@ Introducing my first python prototype project. In this project we can convert ou
     pip install SpeechRecognition
     ```
 
-    c) Installing PyAudio module: <br />
+    c) Installing `PyAudio` module: <br />
         - PyAudio module src link: https://pypi.org/project/PyAudio/ <br />
         - Short Description: PyAudio provides Python bindings for PortAudio v19, the cross-platform audio I/O library. With PyAudio, you can easily use Python to play and record audio on a variety of platforms, such as GNU/Linux, Microsoft Windows, and Apple macOS. <br />
         - Author: Hubert Pham <br />
@@ -209,7 +209,7 @@ Introducing my first python prototype project. In this project we can convert ou
     pip install PyAudio
     ```
 
-    d) Installing gTTS module: <br />
+    d) Installing `gTTS` module: <br />
         - gTTS module src link: https://pypi.org/project/gTTS/ <br />
         - Short Description: gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate's text-to-speech API. Write spoken mp3 data to a file, a file-like object (bytestring) for further audio manipulation, or stdout. http://gtts.readthedocs.org/ <br />
         - Author: Pierre Nicolas Durette <br />
@@ -219,7 +219,7 @@ Introducing my first python prototype project. In this project we can convert ou
     pip install gTTS
     ```
 
-    e) Installing playsound==1.2.2 module: <br />
+    e) Installing `playsound==1.2.2` module: <br />
         - playsound==1.2.2 module src link: https://pypi.org/project/playsound/1.2.2/ <br />
         - Short Description: Pure Python, cross platform, single function module with no dependencies for playing sounds. <br />
         - Author: Taylor Marks <br />
@@ -230,7 +230,7 @@ Introducing my first python prototype project. In this project we can convert ou
     ```
 * #### Optional:
 
-    a) Installing pyttsx3 module: <br />
+    a) Installing `pyttsx3` module: <br />
         - pyttsx3 module src link: https://pypi.org/project/pyttsx3/ <br />
         - Short Description: pyttsx3 is a text-to-speech conversion library in Python. Unlike alternative libraries, it works offline, and is compatible with both Python 2 and 3. <br />
         - Author: Natesh M Bhat <br />
@@ -240,7 +240,7 @@ Introducing my first python prototype project. In this project we can convert ou
     pip install pyttsx3
     ```
 
-    b) Installing python-vlc module: <br />
+    b) Installing `python-vlc` module: <br />
         - python-vlc module src link: https://pypi.org/project/python-vlc/ <br />
         - Short Description: This module provides ctypes-based bindings. http://wiki.videolan.org/PythonBinding for the native libvlc API ( see http://wiki.videolan.org/LibVLC ) of the VLC video player. Note that it relies on an already present install of VLC. It has been automatically generated from the include files of vlc 3.0.20, using generator 1.23. <br />
         - Author: Olivier Aubert <br />
