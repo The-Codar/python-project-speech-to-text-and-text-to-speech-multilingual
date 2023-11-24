@@ -1,0 +1,92 @@
+<svg fill="none" viewBox="0 0 600 150" width="600" height="150" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                *{
+                    --color-main: #71ffbd;
+                    --color-primary: #44daff;
+                    --color-secondary: #7977e8;
+                    --color-background: #191A25;
+                    --color-link: #9ecbfed7;
+                    --color-link-active: #9ecbfe;
+                }
+                <!-- for my intro logo title and body customizing start -->
+                .body{
+                    height: 150px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-clip: padding-box;
+                    border-radius: 1rem;
+                    background-color: #191A25;
+                    background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
+                    animation: border 5s linear infinite;
+                    background-size: 200% 200%;
+                    background-position: 0 0;
+                    border-color: var(--color-background);
+                }
+                @keyframes border {
+                    0% { background-position: 0 0; }
+                    20% { background-position: 100% 0; }
+                    40% { background-position: 100% 100%; }
+                    60% { background-position: 0 100%; }
+                    100% { background-position: 0 0; }
+                }
+                .container {
+                    background: var(--color-background);
+                    border-radius: 1rem;
+                    height: calc(100% - 10px);
+                    width: calc(100% - 10px);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .myName{
+                    font-size: 1.5rem;
+                    font-family: "Open Sans", sans-serif;
+                    color: var(--color-primary);
+                }
+                .myName_subheading_TOP_lines{
+                    font-size: 0.96rem;
+                    font-family: "Open Sans", sans-serif;
+                    color: var(--color-main);
+                    text-align: right;
+                }
+                .myName_subheading_BOTTOM_lines{
+                    font-size: 1rem;
+                    font-family: "Open Sans", sans-serif;
+                    color: var(--color-main);
+                    text-align: right;
+                }
+                .myName_subheading_BOTTOM_text{
+                    font-size: 0.97rem;
+                }
+                .hi {
+                    display: inline-block;
+                    transform-origin: 70% 70%;
+                    animation: hi 3s linear -2s infinite;
+                }
+                @keyframes hi {
+                    25% { transform: rotate(0deg); }
+                    30% { transform: rotate(15deg); }
+                    35% { transform: rotate(0deg); }
+                    40% { transform: rotate(15deg); }
+                    45% { transform: rotate(0deg); }
+                    80% { transform: rotate(0deg); }
+                    85% { transform: rotate(15deg); }
+                    90% { transform: rotate(0deg); }
+                    95% { transform: rotate(15deg); }
+                    100% { transform: rotate(0deg); }
+                }
+                <!-- for my intro logo title and body customizing end -->
+            </style>
+            <div class='body'>
+                <div class='container'>
+                    <h2 class='myName'><p class='myName_subheading_TOP_lines'> ┌─────────────┐ </p> Hi <span class='hi'>👋🏻</span>, I'm The-Codar <p class='myName_subheading_BOTTOM_lines'> └─ <span class='myName_subheading_BOTTOM_text'>एniruddh वीarun</span> ┘ </p></h2>
+                </div>
+            </div>
+        </div>
+  </foreignObject>
+</svg>
